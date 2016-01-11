@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+@keyframes slidy {
+0% { left: 0%; }
+10% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+</style>
+</head>
+<body style ="background-color:#000;">
+<div style ="width:60%; margin-left:auto; margin-right:auto; margin-top:4em; background-color:#000; border:0.2em dashed #fff;">
+<div class"container-fluid" style ="background-image:url('colacola.jpg'); border-bottom: 0.2em dashed #fff; height:8em;margin-bottom:0.8em;"> <h1 style ="text-align:center;">
+logo<h1>
+
+</div>
+<div class ="container-fluid" style =" background-color:#006699; margin:0.4em; padding:0.2em;"> 
+		<marquee direction ="" class =" container-fluid"  >
+   <h4 style="color:#fff; font-style:italic; float:right; margin:0px; padding:0px;"> you can reach us@:12A,Olusegun Obasanjo Way Oke-fia, Opposite Customary Court of Appeal Osogbo </h4>
+ </marquee> 
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Engfalex </a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> our lawyers <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid" style ="height:12em" id ="slider">
+<figure>
+<img src="family-large.jpg" width ="800" height ="200" alt="">
+<img src="im2.jpg"width ="800" height ="200" alt="">
+<img src="im3.jpg"width ="800" height ="200" alt="">
+<img src="im4.jpg"width ="800" height ="200" alt="">
+<img src="im6.jpg"width ="800" height ="200" alt="">
+</figure>
+  
+</div>
+
+<div class="container-fluid" style="margin-top:2em;">
+  <div class="row">
+    <div class="col-sm-4" style="background-color:#000 ;color:#fff;">
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	
+	</div>
+    <div class="col-sm-4" style="background-color:#000;color:#fff;">
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	</div>
+    <div class="col-sm-4" style="background-color:#000; color:#fff;">
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	</div>
+  </div>
+</div>
+<div class="container-fluid" style ="margin-top:2em; border-top:0.2em dashed #fff;">
+  <div class="row">
+    <div class="col-sm-3" style="background-color:#000 ;color:#fff;">
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	
+	</div>
+    <div class="col-sm-3" style="background-color:#000;color:#fff;">
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	</div>
+    <div class="col-sm-3" style="background-color:#000; color:#fff;">
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	</div>
+	<div class="col-sm-3" style="background-color:#000 ;color:#fff;">
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	<p> my name is fawole shuabi.i was born in okuku in osun state. </p>
+	
+	</div>
+	
+  </div>
+ <div class="container-fluid  well well-sm" style="background-color:#000 ;">
+  	<p style="background-color:#000 ;color:#fff; text-align:center; padding:0.2em;">&copy;engfalex 2015<p>
+  
+</div>
+
+</div>
+</div>
+</body>
+</html>
